@@ -1,6 +1,7 @@
 #include <iostream>
 #include <string>
-
+std::string AES_CBC_Decrypt(const std::string& cipher_text, const std::string& key, const std::string& iv);
+std::string AES_CBC_Encrypt(const std::string& plain_text, const std::string& key, const std::string& iv);
 using namespace std;
 
 int main(){
